@@ -2,21 +2,24 @@
 //  ContentView.swift
 //  superwheels
 //
-//  Created by Syed Shariq on 16/11/2023.
+//  Created by Hafsa Shariq on 16/11/2023.
 //
 
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, Disco!")
+    @State var active: Bool = false
+        var body: some View {
+            NavigationView {
+                List {
+                    NavigationLink(destination: HomeUIView()) {
+                        Text("Search")
+                    }
+                    NavigationLink("General", destination: EmptyView())
+                    NavigationLink("About", destination: EmptyView())
+                }
+            }
         }
-        .padding()
-    }
 }
 
 #Preview {

@@ -11,10 +11,8 @@
 		2D22DE472B05BAFC00AFE639 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D22DE462B05BAFC00AFE639 /* ContentView.swift */; };
 		2D22DE492B05BAFF00AFE639 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D22DE482B05BAFF00AFE639 /* Assets.xcassets */; };
 		2D22DE4D2B05BAFF00AFE639 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D22DE4C2B05BAFF00AFE639 /* Preview Assets.xcassets */; };
-		2D22DE542B05C4D700AFE639 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D22DE532B05C4D700AFE639 /* Launch Screen.storyboard */; };
 		2D22DE562B05C4FC00AFE639 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D22DE552B05C4FC00AFE639 /* Main.storyboard */; };
 		2D27DA312B05C56900458E45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D27DA302B05C56900458E45 /* AppDelegate.swift */; };
-		2D27DA352B05C7D800458E45 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2D27DA342B05C7D800458E45 /* GoogleService-Info.plist */; };
 		2D27DA382B05DB9400458E45 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 2D27DA372B05DB9400458E45 /* FirebaseAnalytics */; };
 		2D27DA3A2B05DB9400458E45 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 2D27DA392B05DB9400458E45 /* FirebaseAnalyticsOnDeviceConversion */; };
 		2D27DA3C2B05DB9400458E45 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 2D27DA3B2B05DB9400458E45 /* FirebaseAnalyticsSwift */; };
@@ -32,6 +30,25 @@
 		2D27DA542B05DB9400458E45 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 2D27DA532B05DB9400458E45 /* FirebaseStorage */; };
 		2D27DA562B05DB9400458E45 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 2D27DA552B05DB9400458E45 /* FirebaseStorageCombine-Community */; };
 		2D27DA582B05DBCF00458E45 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D27DA572B05DBCF00458E45 /* SceneDelegate.swift */; };
+		2D27DA752B06548100458E45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D27DA742B06548100458E45 /* LaunchScreen.storyboard */; };
+		2D27DA772B0658DB00458E45 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2D27DA762B0658DB00458E45 /* GoogleService-Info.plist */; };
+		2D27DA792B06DF5100458E45 /* HomeUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D27DA782B06DF5100458E45 /* HomeUIView.swift */; };
+		2D27DA7B2B06E87A00458E45 /* SearchUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D27DA7A2B06E87A00458E45 /* SearchUIView.swift */; };
+		2D27DA7D2B06E88E00458E45 /* SearchUIResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D27DA7C2B06E88E00458E45 /* SearchUIResultView.swift */; };
+		2D27DA812B06E8B100458E45 /* SignInUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D27DA802B06E8B100458E45 /* SignInUIView.swift */; };
+		2D27DA832B06E8C400458E45 /* SignUpUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D27DA822B06E8C400458E45 /* SignUpUIView.swift */; };
+		2D27DA852B06EA3D00458E45 /* SellCarUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D27DA842B06EA3D00458E45 /* SellCarUIView.swift */; };
+		2D27DA872B06EA5900458E45 /* MyAccountUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D27DA862B06EA5900458E45 /* MyAccountUIView.swift */; };
+		2D27DA8B2B07006300458E45 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D27DA8A2B07006300458E45 /* HomeViewModel.swift */; };
+		2D27DA932B08EA1100458E45 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D27DA922B08EA1100458E45 /* HomeModel.swift */; };
+		2D27DA9C2B08F23800458E45 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D27DA9B2B08F23800458E45 /* UserService.swift */; };
+		2D27DA9E2B08F2A200458E45 /* CarService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D27DA9D2B08F2A200458E45 /* CarService.swift */; };
+		2D27DAA02B08F2B500458E45 /* SearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D27DA9F2B08F2B500458E45 /* SearchService.swift */; };
+		2D27DAA62B08F3C200458E45 /* MyCarsUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D27DAA52B08F3C200458E45 /* MyCarsUIView.swift */; };
+		2D27DAA82B08F42900458E45 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D27DAA72B08F42900458E45 /* UserModel.swift */; };
+		2D27DAAA2B08F4B900458E45 /* CarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D27DAA92B08F4B900458E45 /* CarModel.swift */; };
+		2D27DAAC2B0A28E000458E45 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D27DAAB2B0A28E000458E45 /* UserViewModel.swift */; };
+		2D27DAAE2B0B7D1400458E45 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D27DAAD2B0B7D1400458E45 /* SignUpViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,11 +58,28 @@
 		2D22DE482B05BAFF00AFE639 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D22DE4A2B05BAFF00AFE639 /* superwheels.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = superwheels.entitlements; sourceTree = "<group>"; };
 		2D22DE4C2B05BAFF00AFE639 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		2D22DE532B05C4D700AFE639 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		2D22DE552B05C4FC00AFE639 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		2D27DA302B05C56900458E45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2D27DA342B05C7D800458E45 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Documents - N-TICA-022042 - 1/Hafsa/superwheels/superwheels/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2D27DA572B05DBCF00458E45 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2D27DA742B06548100458E45 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2D27DA762B0658DB00458E45 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2D27DA782B06DF5100458E45 /* HomeUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUIView.swift; sourceTree = "<group>"; };
+		2D27DA7A2B06E87A00458E45 /* SearchUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUIView.swift; sourceTree = "<group>"; };
+		2D27DA7C2B06E88E00458E45 /* SearchUIResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUIResultView.swift; sourceTree = "<group>"; };
+		2D27DA802B06E8B100458E45 /* SignInUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInUIView.swift; sourceTree = "<group>"; };
+		2D27DA822B06E8C400458E45 /* SignUpUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpUIView.swift; sourceTree = "<group>"; };
+		2D27DA842B06EA3D00458E45 /* SellCarUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellCarUIView.swift; sourceTree = "<group>"; };
+		2D27DA862B06EA5900458E45 /* MyAccountUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAccountUIView.swift; sourceTree = "<group>"; };
+		2D27DA8A2B07006300458E45 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		2D27DA922B08EA1100458E45 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		2D27DA9B2B08F23800458E45 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		2D27DA9D2B08F2A200458E45 /* CarService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarService.swift; sourceTree = "<group>"; };
+		2D27DA9F2B08F2B500458E45 /* SearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchService.swift; sourceTree = "<group>"; };
+		2D27DAA52B08F3C200458E45 /* MyCarsUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCarsUIView.swift; sourceTree = "<group>"; };
+		2D27DAA72B08F42900458E45 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		2D27DAA92B08F4B900458E45 /* CarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarModel.swift; sourceTree = "<group>"; };
+		2D27DAAB2B0A28E000458E45 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		2D27DAAD2B0B7D1400458E45 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,16 +128,20 @@
 		2D22DE432B05BAFC00AFE639 /* superwheels */ = {
 			isa = PBXGroup;
 			children = (
-				2D27DA342B05C7D800458E45 /* GoogleService-Info.plist */,
+				2D27DA912B08EA0300458E45 /* Models */,
+				2D27DA8D2B07017F00458E45 /* Services */,
+				2D27DA892B07003900458E45 /* ViewModels */,
+				2D27DA882B06EA6E00458E45 /* Views */,
 				2D22DE552B05C4FC00AFE639 /* Main.storyboard */,
+				2D27DA762B0658DB00458E45 /* GoogleService-Info.plist */,
 				2D22DE442B05BAFC00AFE639 /* superwheelsApp.swift */,
 				2D22DE462B05BAFC00AFE639 /* ContentView.swift */,
 				2D22DE482B05BAFF00AFE639 /* Assets.xcassets */,
 				2D22DE4A2B05BAFF00AFE639 /* superwheels.entitlements */,
 				2D22DE4B2B05BAFF00AFE639 /* Preview Content */,
-				2D22DE532B05C4D700AFE639 /* Launch Screen.storyboard */,
 				2D27DA302B05C56900458E45 /* AppDelegate.swift */,
 				2D27DA572B05DBCF00458E45 /* SceneDelegate.swift */,
+				2D27DA742B06548100458E45 /* LaunchScreen.storyboard */,
 			);
 			path = superwheels;
 			sourceTree = "<group>";
@@ -114,6 +152,51 @@
 				2D22DE4C2B05BAFF00AFE639 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2D27DA882B06EA6E00458E45 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2D27DA782B06DF5100458E45 /* HomeUIView.swift */,
+				2D27DA7A2B06E87A00458E45 /* SearchUIView.swift */,
+				2D27DA7C2B06E88E00458E45 /* SearchUIResultView.swift */,
+				2D27DA802B06E8B100458E45 /* SignInUIView.swift */,
+				2D27DA822B06E8C400458E45 /* SignUpUIView.swift */,
+				2D27DA842B06EA3D00458E45 /* SellCarUIView.swift */,
+				2D27DA862B06EA5900458E45 /* MyAccountUIView.swift */,
+				2D27DAA52B08F3C200458E45 /* MyCarsUIView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2D27DA892B07003900458E45 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2D27DA8A2B07006300458E45 /* HomeViewModel.swift */,
+				2D27DAAB2B0A28E000458E45 /* UserViewModel.swift */,
+				2D27DAAD2B0B7D1400458E45 /* SignUpViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		2D27DA8D2B07017F00458E45 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2D27DA9B2B08F23800458E45 /* UserService.swift */,
+				2D27DA9D2B08F2A200458E45 /* CarService.swift */,
+				2D27DA9F2B08F2B500458E45 /* SearchService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		2D27DA912B08EA0300458E45 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2D27DA922B08EA1100458E45 /* HomeModel.swift */,
+				2D27DAA72B08F42900458E45 /* UserModel.swift */,
+				2D27DAA92B08F4B900458E45 /* CarModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,10 +278,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D22DE542B05C4D700AFE639 /* Launch Screen.storyboard in Resources */,
 				2D22DE4D2B05BAFF00AFE639 /* Preview Assets.xcassets in Resources */,
-				2D27DA352B05C7D800458E45 /* GoogleService-Info.plist in Resources */,
 				2D22DE492B05BAFF00AFE639 /* Assets.xcassets in Resources */,
+				2D27DA772B0658DB00458E45 /* GoogleService-Info.plist in Resources */,
+				2D27DA752B06548100458E45 /* LaunchScreen.storyboard in Resources */,
 				2D22DE562B05C4FC00AFE639 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -210,9 +293,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D27DA812B06E8B100458E45 /* SignInUIView.swift in Sources */,
+				2D27DAA82B08F42900458E45 /* UserModel.swift in Sources */,
 				2D27DA312B05C56900458E45 /* AppDelegate.swift in Sources */,
+				2D27DA9E2B08F2A200458E45 /* CarService.swift in Sources */,
+				2D27DA7D2B06E88E00458E45 /* SearchUIResultView.swift in Sources */,
 				2D22DE472B05BAFC00AFE639 /* ContentView.swift in Sources */,
+				2D27DAA02B08F2B500458E45 /* SearchService.swift in Sources */,
+				2D27DA872B06EA5900458E45 /* MyAccountUIView.swift in Sources */,
+				2D27DAAE2B0B7D1400458E45 /* SignUpViewModel.swift in Sources */,
+				2D27DAAC2B0A28E000458E45 /* UserViewModel.swift in Sources */,
 				2D22DE452B05BAFC00AFE639 /* superwheelsApp.swift in Sources */,
+				2D27DA932B08EA1100458E45 /* HomeModel.swift in Sources */,
+				2D27DA832B06E8C400458E45 /* SignUpUIView.swift in Sources */,
+				2D27DA8B2B07006300458E45 /* HomeViewModel.swift in Sources */,
+				2D27DA852B06EA3D00458E45 /* SellCarUIView.swift in Sources */,
+				2D27DAAA2B08F4B900458E45 /* CarModel.swift in Sources */,
+				2D27DA9C2B08F23800458E45 /* UserService.swift in Sources */,
+				2D27DA792B06DF5100458E45 /* HomeUIView.swift in Sources */,
+				2D27DAA62B08F3C200458E45 /* MyCarsUIView.swift in Sources */,
+				2D27DA7B2B06E87A00458E45 /* SearchUIView.swift in Sources */,
 				2D27DA582B05DBCF00458E45 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +439,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = superwheels/superwheels.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -351,10 +452,10 @@
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -375,6 +476,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = superwheels/superwheels.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -387,10 +489,10 @@
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
