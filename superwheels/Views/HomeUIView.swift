@@ -9,6 +9,7 @@ import SwiftUI
 struct HomeUIView: View {
     
     @StateObject private var userViewModel = UserViewModel()
+    @StateObject private var carViewModel = CarsViewModel()
     @StateObject var sessionManager = SessionManager()
     let topBarHeight: CGFloat = 180 // Increased height for the top bar
     let islandHeight: CGFloat = 100 // Height of the island/banner
@@ -56,7 +57,7 @@ struct HomeUIView: View {
                     }
                     .padding(.horizontal, 20)
                     
-                   
+                    
                     ScrollView(.vertical, showsIndicators: false) {
                         if let customerName = userViewModel.getCustomerName() {
                             // Display user details if available
@@ -85,16 +86,18 @@ struct HomeUIView: View {
                                 .foregroundColor(.black)
                             
                             // Reduce top padding to adjust spacing
-                            
+                            carViewModel.getBrands()
                             ScrollView(.horizontal, showsIndicators: false) {
                                 LazyHGrid(rows: [GridItem(.fixed(120))], spacing: 20) {
                                     // Replace the following image names with your actual brand images
-                                    ForEach(0..<10) { index in
-                                        Image("HomeBanner") // Replace with actual image names
-                                            .resizable()
-                                            .aspectRatio(contentMode: .fit)
-                                            .frame(width: 120, height: 80)
-                                            .cornerRadius(8)
+                                    for brand in carViewModel.brands {
+                                        ForEach(carViewModel.brands) { brand in
+                                            if let imageUrl = brand.imageUrl, !imageUrl.isEmpty {
+                                                brandImageView(for: imageUrl)
+                                            } else {
+                                                brandImageView(for: nil)
+                                            }
+                                        }
                                     }
                                 }
                             }
@@ -109,21 +112,6 @@ struct HomeUIView: View {
                                 .foregroundColor(.black)
                                 .padding(.top, 8)
                                 .alignmentGuide(HorizontalAlignment.leading) { d in d[HorizontalAlignment.leading] }
-                            
-                            // Reduce top padding to adjust spacing
-                            
-                            ScrollView(.horizontal, showsIndicators: false) {
-                                LazyHGrid(rows: [GridItem(.fixed(120))], spacing: 20) {
-                                    // Replace the following image names with your actual brand images
-                                    ForEach(0..<10) { index in
-                                        Image("HomeBanner") // Replace with actual image names
-                                            .resizable()
-                                            .aspectRatio(contentMode: .fit)
-                                            .frame(width: 120, height: 80)
-                                            .cornerRadius(8)
-                                    }
-                                }
-                            }
                         }
                     }
                 }
@@ -134,6 +122,18 @@ struct HomeUIView: View {
             }
         }
         .navigationBarHidden(true) // Hide the navigation bar
-        
     }
+    
+    func brandImageView(for imageUrl: String?) -> some View {
+        let imageName = imageUrl != nil && !imageUrl!.isEmpty ? imageUrl! : "dummycar"
+
+        return Image(imageName)
+            .resizable()
+            .aspectRatio(contentMode: .fit)
+            .frame(width: 120, height: 80)
+            .cornerRadius(8)
+    }
+
 }
+
+

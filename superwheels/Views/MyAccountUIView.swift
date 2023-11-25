@@ -131,7 +131,3 @@ struct MyAccountUIView: View {
         }
     }
 }
-
-#Preview {
-    MyAccountUIView()
-}

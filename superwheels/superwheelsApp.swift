@@ -14,7 +14,7 @@ struct superwheelsApp: App {
      }
     var body: some Scene {
         WindowGroup {
-            SellCarUIView()
+            HomeUIView()
         }
     }
 }
