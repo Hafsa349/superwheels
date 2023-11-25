@@ -14,24 +14,56 @@
             filePath = "superwheels/Services/UserService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "50"
-            endingLineNumber = "50"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
             landmarkName = "getUser(id:completion:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "73BBED52-C1F5-40C5-87DF-17E8B0FD3166 - 9de3ba8c27dd7a5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRDocumentSnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in superwheels.UserService.getUser(id: Swift.String, completion: (Swift.Optional&lt;superwheels.UserModel&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "superwheels"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/syedshariq/Documents/Hafsa/superwheels/superwheels/Services/UserService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "352">
+               </Location>
+               <Location
+                  uuid = "73BBED52-C1F5-40C5-87DF-17E8B0FD3166 - 9de3ba8c27dd7a5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRDocumentSnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in superwheels.UserService.getUser(id: Swift.String, completion: (Swift.Optional&lt;superwheels.UserModel&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "superwheels"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/syedshariq/Documents/Hafsa/superwheels/superwheels/Services/UserService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "925">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "8FF99FA9-5B5E-41F2-B81F-A5C6B72C3259"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "superwheels/Services/UserService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "46"
-            endingLineNumber = "46"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
             landmarkName = "getUser(id:completion:)"
             landmarkType = "7">
             <Locations>
@@ -51,7 +83,22 @@
                   offsetFromSymbolStart = "58">
                </Location>
                <Location
-                  uuid = "8FF99FA9-5B5E-41F2-B81F-A5C6B72C3259 - 9de3ba8c27dd742"
+                  uuid = "8FF99FA9-5B5E-41F2-B81F-A5C6B72C3259 - d3156fa047422b1a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "superwheels.UserService.getUser(id: Swift.String, completion: (Swift.Optional&lt;superwheels.UserModel&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "superwheels"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/syedshariq/Documents/Hafsa/superwheels/superwheels/Services/UserService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "58">
+               </Location>
+               <Location
+                  uuid = "8FF99FA9-5B5E-41F2-B81F-A5C6B72C3259 - 9de3ba8c27dd700"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -61,9 +108,9 @@
                   urlString = "file:///Users/syedshariq/Documents/Hafsa/superwheels/superwheels/Services/UserService.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "47"
-                  endingLineNumber = "47"
-                  offsetFromSymbolStart = "332">
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "311">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -72,15 +119,95 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "877C14DE-9050-4CB0-8E61-786FC21B48EF"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "superwheels/Services/UserService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "61"
-            endingLineNumber = "61"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
             landmarkName = "getUser(id:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "68A95019-28AA-4F84-8E2E-F8EC35696A31"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "superwheels/Views/HomeUIView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "133"
+            endingLineNumber = "133"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "85A9FF74-8655-4B27-89A5-BDE913B392EE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "superwheels/Services/CarService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "getBrands(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "85A9FF74-8655-4B27-89A5-BDE913B392EE - e31c5150c55b90cd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "superwheels.CarService.getCars(completion: (Swift.Optional&lt;Swift.Array&lt;superwheels.Brand&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "superwheels"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/syedshariq/Documents/Hafsa/superwheels/superwheels/Services/CarService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "46">
+               </Location>
+               <Location
+                  uuid = "85A9FF74-8655-4B27-89A5-BDE913B392EE - 83f4370937fdfaad"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRQuerySnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in superwheels.CarService.getCars(completion: (Swift.Optional&lt;Swift.Array&lt;superwheels.Brand&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "superwheels"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/syedshariq/Documents/Hafsa/superwheels/superwheels/Services/CarService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "139">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "06A9A3DA-8634-4371-B0FE-6D46F564CEC5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "superwheels/Services/CarService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "getBrands(completion:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2D22DE452B05BAFC00AFE639 /* superwheelsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D22DE442B05BAFC00AFE639 /* superwheelsApp.swift */; };
-		2D22DE472B05BAFC00AFE639 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D22DE462B05BAFC00AFE639 /* ContentView.swift */; };
 		2D22DE492B05BAFF00AFE639 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D22DE482B05BAFF00AFE639 /* Assets.xcassets */; };
 		2D22DE4D2B05BAFF00AFE639 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D22DE4C2B05BAFF00AFE639 /* Preview Assets.xcassets */; };
 		2D22DE562B05C4FC00AFE639 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D22DE552B05C4FC00AFE639 /* Main.storyboard */; };
@@ -31,10 +30,9 @@
 		2D27DA562B05DB9400458E45 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 2D27DA552B05DB9400458E45 /* FirebaseStorageCombine-Community */; };
 		2D27DA582B05DBCF00458E45 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D27DA572B05DBCF00458E45 /* SceneDelegate.swift */; };
 		2D27DA752B06548100458E45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D27DA742B06548100458E45 /* LaunchScreen.storyboard */; };
-		2D27DA772B0658DB00458E45 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2D27DA762B0658DB00458E45 /* GoogleService-Info.plist */; };
 		2D27DA792B06DF5100458E45 /* HomeUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D27DA782B06DF5100458E45 /* HomeUIView.swift */; };
 		2D27DA7B2B06E87A00458E45 /* SearchUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D27DA7A2B06E87A00458E45 /* SearchUIView.swift */; };
-		2D27DA7D2B06E88E00458E45 /* SearchUIResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D27DA7C2B06E88E00458E45 /* SearchUIResultView.swift */; };
+		2D27DA7D2B06E88E00458E45 /* SearchResultUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D27DA7C2B06E88E00458E45 /* SearchResultUIView.swift */; };
 		2D27DA812B06E8B100458E45 /* SignInUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D27DA802B06E8B100458E45 /* SignInUIView.swift */; };
 		2D27DA832B06E8C400458E45 /* SignUpUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D27DA822B06E8C400458E45 /* SignUpUIView.swift */; };
 		2D27DA852B06EA3D00458E45 /* SellCarUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D27DA842B06EA3D00458E45 /* SellCarUIView.swift */; };
@@ -46,15 +44,20 @@
 		2D27DAA02B08F2B500458E45 /* SearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D27DA9F2B08F2B500458E45 /* SearchService.swift */; };
 		2D27DAA62B08F3C200458E45 /* MyCarsUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D27DAA52B08F3C200458E45 /* MyCarsUIView.swift */; };
 		2D27DAA82B08F42900458E45 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D27DAA72B08F42900458E45 /* UserModel.swift */; };
-		2D27DAAA2B08F4B900458E45 /* CarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D27DAA92B08F4B900458E45 /* CarModel.swift */; };
+		2D27DAAA2B08F4B900458E45 /* MyCarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D27DAA92B08F4B900458E45 /* MyCarModel.swift */; };
 		2D27DAAC2B0A28E000458E45 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D27DAAB2B0A28E000458E45 /* UserViewModel.swift */; };
 		2D27DAAE2B0B7D1400458E45 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D27DAAD2B0B7D1400458E45 /* SignUpViewModel.swift */; };
+		2DF139482B1177B80085364D /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF139472B1177B80085364D /* CustomTextField.swift */; };
+		2DF1394A2B1182310085364D /* CustomPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF139492B1182310085364D /* CustomPicker.swift */; };
+		2DF1394C2B1198F20085364D /* CarsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF1394B2B1198F10085364D /* CarsViewModel.swift */; };
+		2DF1394E2B121E590085364D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2DF1394D2B121E590085364D /* GoogleService-Info.plist */; };
+		2DF139502B122EFC0085364D /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF1394F2B122EFB0085364D /* SessionManager.swift */; };
+		2DFF84712B124BB5004BF083 /* BrandCars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF84702B124BB5004BF083 /* BrandCars.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2D22DE412B05BAFC00AFE639 /* superwheels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = superwheels.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D22DE442B05BAFC00AFE639 /* superwheelsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = superwheelsApp.swift; sourceTree = "<group>"; };
-		2D22DE462B05BAFC00AFE639 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2D22DE482B05BAFF00AFE639 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D22DE4A2B05BAFF00AFE639 /* superwheels.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = superwheels.entitlements; sourceTree = "<group>"; };
 		2D22DE4C2B05BAFF00AFE639 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -62,10 +65,9 @@
 		2D27DA302B05C56900458E45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D27DA572B05DBCF00458E45 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2D27DA742B06548100458E45 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		2D27DA762B0658DB00458E45 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2D27DA782B06DF5100458E45 /* HomeUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUIView.swift; sourceTree = "<group>"; };
 		2D27DA7A2B06E87A00458E45 /* SearchUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUIView.swift; sourceTree = "<group>"; };
-		2D27DA7C2B06E88E00458E45 /* SearchUIResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUIResultView.swift; sourceTree = "<group>"; };
+		2D27DA7C2B06E88E00458E45 /* SearchResultUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultUIView.swift; sourceTree = "<group>"; };
 		2D27DA802B06E8B100458E45 /* SignInUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInUIView.swift; sourceTree = "<group>"; };
 		2D27DA822B06E8C400458E45 /* SignUpUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpUIView.swift; sourceTree = "<group>"; };
 		2D27DA842B06EA3D00458E45 /* SellCarUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellCarUIView.swift; sourceTree = "<group>"; };
@@ -77,9 +79,15 @@
 		2D27DA9F2B08F2B500458E45 /* SearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchService.swift; sourceTree = "<group>"; };
 		2D27DAA52B08F3C200458E45 /* MyCarsUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCarsUIView.swift; sourceTree = "<group>"; };
 		2D27DAA72B08F42900458E45 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
-		2D27DAA92B08F4B900458E45 /* CarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarModel.swift; sourceTree = "<group>"; };
+		2D27DAA92B08F4B900458E45 /* MyCarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCarModel.swift; sourceTree = "<group>"; };
 		2D27DAAB2B0A28E000458E45 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 		2D27DAAD2B0B7D1400458E45 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		2DF139472B1177B80085364D /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		2DF139492B1182310085364D /* CustomPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPicker.swift; sourceTree = "<group>"; };
+		2DF1394B2B1198F10085364D /* CarsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsViewModel.swift; sourceTree = "<group>"; };
+		2DF1394D2B121E590085364D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2DF1394F2B122EFB0085364D /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		2DFF84702B124BB5004BF083 /* BrandCars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandCars.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,14 +136,13 @@
 		2D22DE432B05BAFC00AFE639 /* superwheels */ = {
 			isa = PBXGroup;
 			children = (
+				2DF1394D2B121E590085364D /* GoogleService-Info.plist */,
 				2D27DA912B08EA0300458E45 /* Models */,
 				2D27DA8D2B07017F00458E45 /* Services */,
 				2D27DA892B07003900458E45 /* ViewModels */,
 				2D27DA882B06EA6E00458E45 /* Views */,
 				2D22DE552B05C4FC00AFE639 /* Main.storyboard */,
-				2D27DA762B0658DB00458E45 /* GoogleService-Info.plist */,
 				2D22DE442B05BAFC00AFE639 /* superwheelsApp.swift */,
-				2D22DE462B05BAFC00AFE639 /* ContentView.swift */,
 				2D22DE482B05BAFF00AFE639 /* Assets.xcassets */,
 				2D22DE4A2B05BAFF00AFE639 /* superwheels.entitlements */,
 				2D22DE4B2B05BAFF00AFE639 /* Preview Content */,
@@ -159,7 +166,7 @@
 			children = (
 				2D27DA782B06DF5100458E45 /* HomeUIView.swift */,
 				2D27DA7A2B06E87A00458E45 /* SearchUIView.swift */,
-				2D27DA7C2B06E88E00458E45 /* SearchUIResultView.swift */,
+				2D27DA7C2B06E88E00458E45 /* SearchResultUIView.swift */,
 				2D27DA802B06E8B100458E45 /* SignInUIView.swift */,
 				2D27DA822B06E8C400458E45 /* SignUpUIView.swift */,
 				2D27DA842B06EA3D00458E45 /* SellCarUIView.swift */,
@@ -175,6 +182,9 @@
 				2D27DA8A2B07006300458E45 /* HomeViewModel.swift */,
 				2D27DAAB2B0A28E000458E45 /* UserViewModel.swift */,
 				2D27DAAD2B0B7D1400458E45 /* SignUpViewModel.swift */,
+				2DF139472B1177B80085364D /* CustomTextField.swift */,
+				2DF139492B1182310085364D /* CustomPicker.swift */,
+				2DF1394B2B1198F10085364D /* CarsViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -185,6 +195,7 @@
 				2D27DA9B2B08F23800458E45 /* UserService.swift */,
 				2D27DA9D2B08F2A200458E45 /* CarService.swift */,
 				2D27DA9F2B08F2B500458E45 /* SearchService.swift */,
+				2DF1394F2B122EFB0085364D /* SessionManager.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -194,7 +205,8 @@
 			children = (
 				2D27DA922B08EA1100458E45 /* HomeModel.swift */,
 				2D27DAA72B08F42900458E45 /* UserModel.swift */,
-				2D27DAA92B08F4B900458E45 /* CarModel.swift */,
+				2D27DAA92B08F4B900458E45 /* MyCarModel.swift */,
+				2DFF84702B124BB5004BF083 /* BrandCars.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -280,7 +292,7 @@
 			files = (
 				2D22DE4D2B05BAFF00AFE639 /* Preview Assets.xcassets in Resources */,
 				2D22DE492B05BAFF00AFE639 /* Assets.xcassets in Resources */,
-				2D27DA772B0658DB00458E45 /* GoogleService-Info.plist in Resources */,
+				2DF1394E2B121E590085364D /* GoogleService-Info.plist in Resources */,
 				2D27DA752B06548100458E45 /* LaunchScreen.storyboard in Resources */,
 				2D22DE562B05C4FC00AFE639 /* Main.storyboard in Resources */,
 			);
@@ -296,21 +308,25 @@
 				2D27DA812B06E8B100458E45 /* SignInUIView.swift in Sources */,
 				2D27DAA82B08F42900458E45 /* UserModel.swift in Sources */,
 				2D27DA312B05C56900458E45 /* AppDelegate.swift in Sources */,
+				2DF139502B122EFC0085364D /* SessionManager.swift in Sources */,
 				2D27DA9E2B08F2A200458E45 /* CarService.swift in Sources */,
-				2D27DA7D2B06E88E00458E45 /* SearchUIResultView.swift in Sources */,
-				2D22DE472B05BAFC00AFE639 /* ContentView.swift in Sources */,
+				2D27DA7D2B06E88E00458E45 /* SearchResultUIView.swift in Sources */,
 				2D27DAA02B08F2B500458E45 /* SearchService.swift in Sources */,
 				2D27DA872B06EA5900458E45 /* MyAccountUIView.swift in Sources */,
 				2D27DAAE2B0B7D1400458E45 /* SignUpViewModel.swift in Sources */,
 				2D27DAAC2B0A28E000458E45 /* UserViewModel.swift in Sources */,
 				2D22DE452B05BAFC00AFE639 /* superwheelsApp.swift in Sources */,
 				2D27DA932B08EA1100458E45 /* HomeModel.swift in Sources */,
+				2DF139482B1177B80085364D /* CustomTextField.swift in Sources */,
 				2D27DA832B06E8C400458E45 /* SignUpUIView.swift in Sources */,
+				2DF1394A2B1182310085364D /* CustomPicker.swift in Sources */,
 				2D27DA8B2B07006300458E45 /* HomeViewModel.swift in Sources */,
 				2D27DA852B06EA3D00458E45 /* SellCarUIView.swift in Sources */,
-				2D27DAAA2B08F4B900458E45 /* CarModel.swift in Sources */,
+				2D27DAAA2B08F4B900458E45 /* MyCarModel.swift in Sources */,
 				2D27DA9C2B08F23800458E45 /* UserService.swift in Sources */,
+				2DF1394C2B1198F20085364D /* CarsViewModel.swift in Sources */,
 				2D27DA792B06DF5100458E45 /* HomeUIView.swift in Sources */,
+				2DFF84712B124BB5004BF083 /* BrandCars.swift in Sources */,
 				2D27DAA62B08F3C200458E45 /* MyCarsUIView.swift in Sources */,
 				2D27DA7B2B06E87A00458E45 /* SearchUIView.swift in Sources */,
 				2D27DA582B05DBCF00458E45 /* SceneDelegate.swift in Sources */,

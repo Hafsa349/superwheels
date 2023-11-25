@@ -2,7 +2,7 @@
 //  SignInView.swift
 //  superwheels
 //
-//  Created by Syed Shariq on 17/11/2023.
+//  Created by Hafsa Shariq on 17/11/2023.
 //
 import SwiftUI
 
@@ -11,24 +11,33 @@ struct SignInUIView: View {
     @State private var password = ""
     @State private var isEmailValid = true
     @State private var isPasswordValid = true
+    let topBarHeight: CGFloat = 160 // Increased height for the top bar
     
     var body: some View {
         NavigationView {
             
             GeometryReader { geometry in
-                
-                VStack {
+                Color.primaryOrange
+                    .frame(height: topBarHeight)
+                    .edgesIgnoringSafeArea(.top)
+                    .zIndex(0) // Ensure it stays on top
+                VStack() {
+                    Image("LogoHorizontal")
+                        .resizable()
+                        .frame(width: 242.0, height: 84.0)
+                    
+                    
                     Text("Sign In")
                         .font(.largeTitle)
                         .bold()
                         .foregroundColor(.black)
-                        .padding(.top, 30)
+                        .padding(.top, 40)
                     
                     Image(systemName: "person.circle.fill")
                         .resizable()
                         .aspectRatio(contentMode: .fit)
                         .frame(width: 100, height: 100)
-                        .foregroundColor(.blue)
+                        .foregroundColor(.primaryOrange)
                         .padding(.bottom, 20)
                         .padding(.top, 40)
                     
@@ -40,7 +49,7 @@ struct SignInUIView: View {
                         .autocapitalization(.none)
                         .textContentType(.emailAddress)
                         .onChange(of: email) { newValue in
-                            isEmailValid = newValue.isValidEmail()
+                             isEmailValid = newValue.isValidEmail()
                         }
                     
                     if !isEmailValid {
@@ -70,7 +79,7 @@ struct SignInUIView: View {
                     }
                     
                     Button(action: {
-                        isEmailValid = email.isValidEmail()
+                        //isEmailValid = email.isValidEmail()
                         isPasswordValid = password.count >= 6 // Example validation for minimum password length
                         
                         if email.isEmpty || !isEmailValid || password.isEmpty || !isPasswordValid {

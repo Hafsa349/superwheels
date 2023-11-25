@@ -2,36 +2,32 @@
 //  HomeView.swift
 //  superwheels
 //
-//  Created by Syed Shariq on 17/11/2023.
+//  Created by Hafsa Shariq on 17/11/2023.
 //
 
 import SwiftUI
 struct HomeUIView: View {
-    @StateObject private var viewModel = HomeViewModel(homeModel: HomeModel())
-    @State private var isLoggedIn = false
-    @State private var firstName = ""
-    @State private var lastName = ""
+    
+    @StateObject private var userViewModel = UserViewModel()
+    @StateObject var sessionManager = SessionManager()
     let topBarHeight: CGFloat = 180 // Increased height for the top bar
     let islandHeight: CGFloat = 100 // Height of the island/banner
     @State private var searchText = ""
-    @State private var isSearchActive = true
-    @State private var selection = 0
     var body: some View {
         NavigationView {
             GeometryReader { geometry in
                 // Orange background on top with increased height
-                Color.orange
+                Color.primaryOrange
                     .frame(height: topBarHeight)
                     .edgesIgnoringSafeArea(.top)
                     .zIndex(0) // Ensure it stays on top
                 
-                VStack(spacing: 30) {
+                VStack(spacing: 10) {
                     // Text "SuperWheels" above the search box
-                    Text("SuperWheels")
-                        .font(.title)
-                        .foregroundColor(.white)
-                        .padding(.top, 30)
-                        .zIndex(1) // Place it above the orange bar
+                    
+                    Image("LogoHorizontal")
+                        .resizable()
+                        .frame(width: 242.0, height: 84.0)
                     
                     // Search text box with search icon
                     ZStack(alignment: .trailing) {
@@ -60,7 +56,16 @@ struct HomeUIView: View {
                     }
                     .padding(.horizontal, 20)
                     
+                   
                     ScrollView(.vertical, showsIndicators: false) {
+                        if let customerName = userViewModel.getCustomerName() {
+                            // Display user details if available
+                            Text("Welcome, \(customerName)").font(.title)
+                        } else {
+                            // Placeholder or loading state while user details are being fetched
+                            ProgressView("Loading ...")
+                        }
+                        
                         // Banner image without overlay
                         Image("HomeBanner")
                             .resizable()
@@ -70,8 +75,6 @@ struct HomeUIView: View {
                             .offset(y: -topBarHeight / 2)
                             .zIndex(3) // Behind the search box and orange bar
                         Spacer()
-                        
-                        
                         
                         VStack(spacing: 0) {
                             // Scrollable horizontal list of brands
@@ -100,7 +103,7 @@ struct HomeUIView: View {
                         VStack(spacing: 0) {
                             // Scrollable horizontal list of brands
                             // Adjust spacing to remove space between elements
-                            Text("Featured")
+                            Text("Featured Cars")
                                 .font(.title)
                                 .fontWeight(.bold)
                                 .foregroundColor(.black)
@@ -125,13 +128,12 @@ struct HomeUIView: View {
                     }
                 }
             }
-            
+            .onAppear {
+                // Fetch user details when the view appears
+                userViewModel.getUserDetails(for: sessionManager.getSessionId())
+            }
         }
         .navigationBarHidden(true) // Hide the navigation bar
         
     }
-}
-
-#Preview {
-    HomeUIView()
 }

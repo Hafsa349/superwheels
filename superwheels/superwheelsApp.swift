@@ -2,20 +2,19 @@
 //  superwheelsApp.swift
 //  superwheels
 //
-//  Created by Syed Shariq on 16/11/2023.
+//  Created by Hafsa Shariq on 16/11/2023.
 //
 
 import SwiftUI
-import Firebase
+import FirebaseCore
 @main
 struct superwheelsApp: App {
     init() {
-        //FirebaseApp.configure()
-    }
+        FirebaseApp.configure()
+     }
     var body: some Scene {
-        
         WindowGroup {
-            HomeUIView()
+            SellCarUIView()
         }
     }
 }

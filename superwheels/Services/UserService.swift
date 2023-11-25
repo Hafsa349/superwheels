@@ -2,7 +2,7 @@
 //  UserService.swift
 //  superwheels
 //
-//  Created by Syed Shariq on 19/11/2023.
+//  Created by Hafsa Shariq on 19/11/2023.
 //
 
 import Foundation
@@ -18,7 +18,6 @@ final class UserService {
             "email": newUser.email,
             "firstName": newUser.firstName,
             "lastName": newUser.lastName,
-            "password": newUser.password,
             "phoneNumber": newUser.phoneNumber
         ])
         
@@ -29,7 +28,6 @@ final class UserService {
             "email": updatedUser.email,
             "firstName": updatedUser.firstName,
             "lastName": updatedUser.lastName,
-            "password": updatedUser.password,
             "phoneNumber": updatedUser.phoneNumber
         ], merge: true) { error in
             if let error = error {
@@ -43,7 +41,7 @@ final class UserService {
     
     func getUser(id: String, completion: @escaping (UserModel?) -> Void) {
         
-        db.collection("users").document("test").getDocument { (document, error) in
+        db.collection("users").document(id).getDocument { (document, error) in
             if let error = error {
                 print("Error getting document: \(error)")
             } else {
@@ -52,18 +50,14 @@ final class UserService {
                           let email = userData["email"] as? String,
                           let firstName = userData["firstName"] as? String,
                           let lastName = userData["lastName"] as? String,
-                          let password = userData["password"] as? String,
                           let phoneNumber = userData["phoneNumber"] as? String else {
                         completion(nil)
                         return
                     }
                     
-                    let user = UserModel(id: document.documentID, email: email, firstName: firstName, lastName: lastName, password: password, phoneNumber: phoneNumber)
+                    let user = UserModel(id: document.documentID, email: email, firstName: firstName, lastName: lastName, phoneNumber: phoneNumber)
                     completion(user)
-                    
-                    // Perform actions with userData
-                    // Example: print(userData)
-                    // Example: access specific fields within userData: let username = userData["username"] as? String
+                   
                 } else {
                     print("Document does not exist")
                 }

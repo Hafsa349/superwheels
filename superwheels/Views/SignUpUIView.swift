@@ -2,7 +2,7 @@
 //  SignUpView.swift
 //  superwheels
 //
-//  Created by Syed Shariq on 17/11/2023.
+//  Created by Hafsa Shariq on 17/11/2023.
 //
 
 import SwiftUI
@@ -16,11 +16,10 @@ struct SignUpUIView: View {
     @State private var isEmailValid = true
     @State private var isPasswordValid = true
     @State private var confirmPassword = ""
-    
+    let topBarHeight: CGFloat = 100
     var body: some View {
         NavigationView {
         ScrollView(.vertical){
-        
                 GeometryReader { geometry in
                     VStack(alignment: .leading) {
                         Text("Create an account")

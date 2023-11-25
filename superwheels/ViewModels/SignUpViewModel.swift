@@ -2,7 +2,7 @@
 //  SignUpViewModel.swift
 //  superwheels
 //
-//  Created by Syed Shariq on 20/11/2023.
+//  Created by Hafsa Shariq on 20/11/2023.
 //
 
 import Foundation

@@ -2,7 +2,7 @@
 //  HomeModel.swift
 //  superwheels
 //
-//  Created by Syed Shariq on 18/11/2023.
+//  Created by Hafsa Shariq on 18/11/2023.
 //
 
 import Foundation
